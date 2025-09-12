@@ -122,8 +122,9 @@
 .asteric-text {
     font-style: italic;
     margin-bottom: 2rem;
-    font-size: 0.5;
+    font-size: 0.1;
     line-height: 2;
+    font-weight: bold;
 }
 .btn {
     display: inline-block;
@@ -155,7 +156,18 @@
 .content-image img {
     width: auto;
     max-width: 100%;
-    
-    
-    
+}
+.background-image{height: 600px;
+    background-image: url(/Images/1464332722.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+    background-color: transparent;
+    background-position: 50% 17%;
+}
+.picture-content-header {
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 40px;
+    font-size: large;
 }
