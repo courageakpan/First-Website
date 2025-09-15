@@ -210,3 +210,25 @@ width: 100%;
     transform: translateY(100%);
     transition: transform 0,5s ease;
 }
+.about-header {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.about-content {
+    padding-right: 20px;
+}
+.about-content p {
+    line-height: 2;
+    font-size: 1.15rem;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+}
+.about-left {
+    max-width: 100%;
+    width: auto;
+}
+.about-quotetext {
+    margin-bottom: 2rem;
+    font-weight: light;
+}
