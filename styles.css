@@ -232,3 +232,24 @@ width: 100%;
     margin-bottom: 2rem;
     font-weight: light;
 }
+.lessons-background {
+    background-image: url(/Images/lessons/1288689501.jpg);
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    background-color: transparent;
+}
+.lesson-banner {
+    position: relative;
+    text-align: center;
+}
+.tag-line1 {
+    display: inline-block;
+    color: white;
+    font-size: 3.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    position: absolute;
+    
+}
