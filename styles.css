@@ -136,7 +136,7 @@
     font-weight: bold;
 }
 .btn:hover {
-    color: #626262;
+    background-color: #626262;
 }
 .btn1 {
     display: inline-block;
@@ -165,7 +165,7 @@
     vertical-align: top;
     background-color: transparent;
     background-position: 50% 100%;
-    min-height: 800px;
+    min-height: 600px;
     vertical-align: top;
     padding: 4rem 3rem;
 }
@@ -173,10 +173,13 @@
     font-weight: bolder;
     text-align: center;
     font-size: large;
+    
 }
 .picture-body{
     text-align: center;
     margin-top: 20px;
+    font-size: 1.15rem;
+    color: #af7d7d;
 }
 .gallery-images-wrapper {
     padding: 5rem 2rem;
@@ -208,7 +211,19 @@ width: 100%;
     padding: 15px;
     text-align: center;
     transform: translateY(100%);
-    transition: transform 0,5s ease;
+    transition: transform 0.5s ease;
+}
+.gallery-item:hover .overlay {
+    margin: 6px;
+    transform: translateY(0);
+}
+.overlay span {
+    display: inline-block;
+    margin: 0;
+    font-size: 17px;
+}
+.btn-text {
+    text-align: center;
 }
 .about-header {
     font-weight: bold;
@@ -218,6 +233,13 @@ width: 100%;
 .about-content {
     padding-right: 20px;
 }
+.hr-container {
+    padding: 50px;
+}
+.styled-hr {
+    background-color: rgba(0,0,0,0.13);
+    height: 1px;
+}
 .about-content p {
     line-height: 2;
     font-size: 1.15rem;
@@ -225,31 +247,113 @@ width: 100%;
     margin-bottom: 2rem;
 }
 .about-left {
+    width: 1450px;
+}
+.about-right {
+    flex-grow: 1;
+}
+
+.img-wrapper img {
     max-width: 100%;
-    width: auto;
+
 }
 .about-quotetext {
     margin-bottom: 2rem;
     font-weight: light;
 }
 .lessons-background {
+    position: relative;
     background-image: url(/Images/lessons/1288689501.jpg);
-    vertical-align: middle;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 400px;
     background-color: transparent;
 }
 .lesson-banner {
-    position: relative;
     text-align: center;
 }
+.lesson-title {
+    text-align: center;
+}
+.lesson-title h2 {
+    margin-top: 40px;
+    font-size: larger;
+}
+.lesson-container {
+    padding: 3rem 4rem;
+}
+.lesson-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+.lesson-left {
+    flex-grow: 1;
+}
+.lesson-left-body p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    margin-bottom: 40px;
+}
+
 .tag-line1 {
+    position: absolute;
     display: inline-block;
     color: white;
-    font-size: 3.5rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
-    position: absolute;
-    
+    bottom: 50%;
+    left: 0;
+    right: 0;
+    font-size: 4.5rem;
+}
+.about-container {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    color: #000000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+.about-content-wrapper {
+    margin: 0 30px;
+    position: relative;
+    display: block;
+    max-width: 100%;
+    padding-top: 30px;
+    overflow: hidden;
+    padding-bottom: 59.6px;
+}
+.youtube iframe{
+    width: 900px;
+    height: 500px;
+}
+.youtube-text {
+    display: block;
+    font-size: large;
+    margin-bottom: 25px;
+}
+.btn2 {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: #E1E4E6;
+    margin-bottom: 40px;
+    padding: 10px 30px;
+    font-size: smaller;
+    font-weight: bold;
+}
+.btn2:hover{
+    background-color: #919191; 
+}
+.footer {
+    margin: 0px 50px;
+    text-align: right;
+}
+.copyright {
+    padding-bottom: 40px;
+}
+.footer-contact {
+    padding-bottom: 20px;
 }
