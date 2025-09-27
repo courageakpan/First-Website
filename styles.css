@@ -102,8 +102,8 @@
     flex-grow: 1;
     row-gap: 2;
 }
-.content-header {
-    font-size: 1.65rem;
+.content-header h2 {
+    font-size: 2rem;
     margin-bottom: 2rem;
 }
 .header-asteric {
@@ -157,7 +157,36 @@
     width: auto;
     max-width: 100%;
 }
-
+.section-content-wrapper1 {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+.left-side1 {
+    width: 30%;
+}
+.right-side1 {
+    flex-grow: 1;
+}
+.right-styled p {
+    font-style: italic;
+    font-size: 1.17rem;
+    margin-bottom: 3rem;
+}
+.right-unstyled p {
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+}
+.mbtn a {
+    display: inline-block;
+    padding: 7px 30px;
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+}
+.mbtn:hover a {
+    background-color: #626262;
+}
 .picture-section-content{
     background-image: url(/Images/1464332722.png);
     background-size: cover;
@@ -454,4 +483,89 @@ height: 300px;
 .dining-right img {
     width: 30;
     min-height: 200px;
+}
+.menu-background {
+    background: url(/Images/menu/1459101017.jpg);
+    height: 450px;
+    vertical-align: middle;
+    background-position: 50% 52.79%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    position: relative;
+    background-size: cover;
+}
+.menu-banner {
+    text-align: center;
+}
+.tag-line2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+    display: inline-block;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 6rem;
+}
+.menu-write-section {
+    padding: 4rem 2rem;
+}
+.menu-b p {
+    font-size: 1.3rem;
+    font-style: italic;
+}
+.menu-heading {
+    text-align: center;
+    margin-top: 6rem;
+}
+.menu-heading h2 {
+    font-size: 1.5rem;
+}
+.menu-subheading {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+ .menu-subheading h2 {
+      font-size: 1rem;
+      font-weight: bold;
+      margin-right: 1rem;
+ }
+ .menu-subheading hr {
+        flex: 1;
+      border-top: 1px solid #c2c2c2;
+ }
+ .menu-item {
+      font-size: 1rem;
+      margin: 1rem 0;
+ }
+ .menu-subsection {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 4rem;
+ }
+ .menu-left {
+    width: 80%;
+ }
+ .menu-left img {
+    max-width: 100%;
+ }
+ .menu-right {
+    flex-grow: 1;
+ }
+.menu-body {
+    line-height: 2;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+.menu-body strong {
+    font-size: 1.3rem;
+}
+.menu-bodyb p {
+    font-size: 1.3rem;
+    font-style: italic;
+
 }
